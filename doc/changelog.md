@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-04 · Configurazione Vercel
+**Cosa:** aggiunti `vercel.json` (sito statico: nessun framework, nessuna build, pagine servite dalla cartella principale) e `.vercelignore` (non pubblica `src/`, `doc/`, `CLAUDE.md`).
+**Perché:** su Vercel il sito dava errore 404, probabile rilevamento sbagliato del tipo di progetto o della cartella di uscita.
+**Verifica:** da controllare dopo il push con un nuovo deploy su Vercel.
+
 ## 2026-11-04 · Pubblicato su GitHub
 **Cosa:** la cartella SITO NUOVO è diventata un repository git ed è stata caricata su GitHub (KCodrin/lamoledilizia.it, ramo main). Aggiunto `.gitignore`.
 **Verifica:** push riuscito.
