@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-04 · Hero home: da tutto schermo a riquadro
+**Cosa:** quando si entra in home la testata è a tutto schermo, da bordo a bordo e senza angoli arrotondati. Scorrendo verso il basso (nei primi 250px) si stacca dai bordi e prende gli angoli arrotondati, diventando il riquadro di prima.
+**Perché / Dettagli:** richiesto dal cliente. CSS in fondo a `style.css`, poche righe in `main.js`. Senza JavaScript resta il riquadro arrotondato. Tolta una vecchia regola CSS non più usata.
+**Verifica:** controllati gli stili: all'apertura 0px di margine e angoli a 0 con testata alta quanto lo schermo; a scorrimento completato 16px di margine e angoli a 20px. Lo scorrimento reale non è stato provato (pannello del browser nascosto).
+
 ## 2026-11-04 · Angoli arrotondati uniformi
 **Cosa:** tutti i riquadri, le foto, le card, la barra in alto, la testata della home e i campi del modulo hanno ora lo stesso arrotondamento dell'header (20px). Le icone piccole dentro i riquadri usano 12px. Tutti i bottoni sono a pillola, come quello dell'header.
 **Perché:** richiesto dal cliente: gli arrotondamenti erano troppo diversi (6, 12, 14, 20, 28px).

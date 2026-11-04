@@ -60,7 +60,6 @@ p { margin: 0 0 1em; }
 .hero-text { max-width: 760px; }
 .hero-text p:not(.eyebrow) { font-size: 1.1rem; color: #e9e6e2; }
 .hero .eyebrow { color: var(--gold); }
-.hero-home { min-height: min(86vh, 720px); display: flex; align-items: center; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 
 .strip { background: var(--ink-2); color: #cfd3d3; padding: 28px 0; }
@@ -239,3 +238,6 @@ tbody td:nth-child(2) { font-weight: 600; }
 .faq p { margin: 10px 0 0; color: var(--muted); }
 @media (max-width: 980px) { .steps { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .steps { grid-template-columns: 1fr; } }
+
+/* Hero home: a tutto schermo all'arrivo, diventa il riquadro arrotondato scorrendo. --p va da 0 a 1 (main.js); senza JS resta il riquadro */
+.hero-home { margin: calc(12px * var(--p, 1)) calc(16px * var(--p, 1)) 0; border-radius: calc(var(--radius) * var(--p, 1)); min-height: 100svh; }

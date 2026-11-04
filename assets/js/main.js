@@ -15,3 +15,11 @@ form?.addEventListener("submit", (e) => {
   const body = `Nome: ${d.nome} ${d.cognome}\nCellulare: ${d.cellulare}\nEmail: ${d.email}\nServizio: ${d.servizio}\n\n${d.messaggio}`;
   location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent("Richiesta informazioni - " + d.servizio)}&body=${encodeURIComponent(body)}`;
 });
+
+// Hero home: da tutto schermo a riquadro arrotondato nei primi 250px di scorrimento
+const heroHome = document.querySelector(".hero-home");
+if (heroHome) {
+  const shrink = () => heroHome.style.setProperty("--p", Math.min(scrollY / 250, 1));
+  shrink();
+  addEventListener("scroll", shrink, { passive: true });
+}
