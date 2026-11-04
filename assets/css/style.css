@@ -96,7 +96,6 @@ p { margin: 0 0 1em; }
 .review { margin: 0; background: var(--paper-2); border-radius: var(--radius); padding: 28px; }
 .review blockquote { margin: 0 0 16px; font-size: 1.02rem; }
 .review figcaption { font-weight: 600; color: var(--gold-dark); font-size: .9rem; }
-.review::before { content: "★★★★★"; display: block; color: var(--gold); letter-spacing: 3px; margin-bottom: 10px; }
 
 .cert { text-align: center; }
 .cert img { width: 140px; margin: 0 auto 16px; border-radius: 50%; }
@@ -109,7 +108,7 @@ p { margin: 0 0 1em; }
 
 .checks { list-style: none; padding: 0; margin: 0; }
 .checks li { padding: 12px 0 12px 32px; border-bottom: 1px solid var(--line); position: relative; }
-.checks li::before { content: "✓"; position: absolute; left: 0; color: var(--gold-dark); font-weight: 800; }
+.checks li::before { content: ""; position: absolute; left: 4px; top: 19px; width: 10px; height: 10px; border-radius: 50%; background: var(--gold); }
 .checks strong { display: block; }
 
 .table-wrap { overflow-x: auto; }
@@ -226,7 +225,6 @@ tbody td:nth-child(2) { font-weight: 600; }
 /* Home: "Che problema hai?", passi, FAQ */
 .problems { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-bottom: 20px; }
 .problem { display: flex; align-items: center; gap: 14px; padding: 18px 20px; border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; font-weight: 600; background: #fff; transition: border-color .2s, transform .2s; }
-.problem span { flex: none; display: grid; place-items: center; width: 44px; height: 44px; border-radius: var(--radius-sm); background: var(--paper-2); font-size: 1.3rem; }
 .problem::after { content: "→"; margin-left: auto; color: var(--gold-dark); }
 .problem:hover { border-color: var(--gold); transform: translateY(-2px); }
 .steps { list-style: none; counter-reset: s; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap); }

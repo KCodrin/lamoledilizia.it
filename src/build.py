@@ -236,9 +236,9 @@ src="https://www.facebook.com/tr?id=3593393790961940&ev=PageView&noscript=1"
 def header(active):
     links = "".join(f'<li><a href="{h}"{" aria-current=\"page\"" if h == active else ""}>{n}</a></li>' for h, n in NAV)
     return f"""<div class="topbar">
-<span>⚡ Interventi in quota senza ponteggi</span>
+<span>Interventi in quota senza ponteggi</span>
 <span class="topbar-mid"><b>Torino e tutta Italia</b> Sopralluoghi per condomini, aziende e privati</span>
-<a href="tel:{TEL_LINK}">☎ {TEL}</a>
+<a href="tel:{TEL_LINK}">{TEL}</a>
 </div>
 <header class="site-header pill">
 <div class="bar">
@@ -330,20 +330,20 @@ def build():
          "slide-1.jpg",
          f"""<section class="hero-home" style="background-image:url('assets/img/slide-1.jpg')">
 <div class="hero-home-in">
-<p class="badge">★ Valutazione eccellente su Google</p>
+<p class="badge">Valutazione eccellente su Google</p>
 <h1>Lavori su tetti e facciate<br><em>senza ponteggi.</em></h1>
 <div class="hero-actions"><a class="btn btn-pill" href="contatti.html">Richiedi un sopralluogo ↗</a><p>Infiltrazioni, facciate, grondaie, linee vita: interveniamo calandoci con le corde, come gli alpinisti. Torino e tutta Italia.</p></div>
 <ul class="hero-feats">
-<li><span>↕</span>Niente ponteggio<br>meno costi, meno disagi</li>
-<li><span>⏱</span>Cantiere rapido<br>pronti a lavorare in 1-2 giorni</li>
-<li><span>✓</span>Tecnici formati<br>Scuola di Alpinismo Valli di Lanzo</li>
+<li><span>01</span>Niente ponteggio<br>meno costi, meno disagi</li>
+<li><span>02</span>Cantiere rapido<br>pronti a lavorare in 1-2 giorni</li>
+<li><span>03</span>Tecnici formati<br>Scuola di Alpinismo Valli di Lanzo</li>
 </ul>
 </div>
 </section>
 <section class="section"><div class="wrap">
 <p class="eyebrow">Da dove partire</p><h2>Che problema hai?</h2>
 <p class="lead">Scegli quello che vedi sul tuo edificio: ti mostriamo come lo risolviamo.</p>
-<div class="problems"><a class="problem" href="servizi-ricerca-e-riparazione-infiltrazioni.html"><span aria-hidden="true">💧</span>Macchie di umidità o acqua che entra</a><a class="problem" href="servizi-messa-in-sicurezza.html"><span aria-hidden="true">🧱</span>Intonaco o cornicioni che si staccano</a><a class="problem" href="servizi-pulizia-canali-gronda-e-tetti.html"><span aria-hidden="true">🍂</span>Grondaie intasate o che traboccano</a><a class="problem" href="servizi-allontanamento-volatili.html"><span aria-hidden="true">🕊</span>Piccioni su tetti e balconi</a><a class="problem" href="servizi-sicurezza-e-check-up-tetti.html"><span aria-hidden="true">🏠</span>Tetto vecchio da controllare o rifare</a><a class="problem" href="servizi-rifacimento-facciate.html"><span aria-hidden="true">🎨</span>Facciata rovinata da rinnovare</a><a class="problem" href="servizi-installazione-e-revisione-linee-vita.html"><span aria-hidden="true">🔗</span>Linea vita da installare o revisionare</a><a class="problem" href="servizi-lavaggio-vetri.html"><span aria-hidden="true">🪟</span>Vetrate alte da pulire</a></div>
+<div class="problems"><a class="problem" href="servizi-ricerca-e-riparazione-infiltrazioni.html">Macchie di umidità o acqua che entra</a><a class="problem" href="servizi-messa-in-sicurezza.html">Intonaco o cornicioni che si staccano</a><a class="problem" href="servizi-pulizia-canali-gronda-e-tetti.html">Grondaie intasate o che traboccano</a><a class="problem" href="servizi-allontanamento-volatili.html">Piccioni su tetti e balconi</a><a class="problem" href="servizi-sicurezza-e-check-up-tetti.html">Tetto vecchio da controllare o rifare</a><a class="problem" href="servizi-rifacimento-facciate.html">Facciata rovinata da rinnovare</a><a class="problem" href="servizi-installazione-e-revisione-linee-vita.html">Linea vita da installare o revisionare</a><a class="problem" href="servizi-lavaggio-vetri.html">Vetrate alte da pulire</a></div>
 <p class="note">Non trovi il tuo caso? <a href="servizi-edilizia-su-fune.html">Guarda tutti i 12 servizi</a> o <a href="contatti.html">scrivici</a>.</p>
 </div></section>
 <section class="section alt"><div class="wrap split">

@@ -26,4 +26,4 @@ HTML + CSS + un piccolo JS, generati da uno script Python senza dipendenze. Ness
 3. `doc/` aggiornata.
 
 ## 6 · Regole del cliente (si aggiungono man mano)
-- (nessuna ancora)
+- **Mai emoji**, in nessun punto del sito, dei testi o della documentazione. Neanche simboli tipo stelline o spunte: per le icone si usa CSS o SVG.

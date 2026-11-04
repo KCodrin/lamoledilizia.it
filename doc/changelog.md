@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-04 · Tolte tutte le emoji
+**Cosa:** tolte emoji e simboli dal sito: icone dei riquadri "Che problema hai?", fulmine e telefono nella barra in alto, icone dei punti nella testata (ora numeri 01-02-03), stelline nel badge e nelle recensioni, spunte negli elenchi (ora pallini oro disegnati in CSS).
+**Perché:** regola del cliente: mai emoji. Aggiunta in `agent.md` e `brand/voice.md`.
+**Verifica:** controllo automatico su pagine, script, CSS, JS e documentazione: nessuna emoji rimasta.
+
 ## 2026-11-04 · Hero home: da tutto schermo a riquadro
 **Cosa:** quando si entra in home la testata è a tutto schermo, da bordo a bordo e senza angoli arrotondati. Scorrendo verso il basso (nei primi 250px) si stacca dai bordi e prende gli angoli arrotondati, diventando il riquadro di prima.
 **Perché / Dettagli:** richiesto dal cliente. CSS in fondo a `style.css`, poche righe in `main.js`. Senza JavaScript resta il riquadro arrotondato. Tolta una vecchia regola CSS non più usata.
