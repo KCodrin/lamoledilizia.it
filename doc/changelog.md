@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-04 · README per GitHub
+**Cosa:** aggiunto `README.md` con descrizione del sito, struttura delle cartelle, come modificarlo e come viene pubblicato. Escluso dalla pubblicazione su Vercel.
+**Verifica:** solo documentazione.
+
 ## 2026-11-04 · Tolte tutte le emoji
 **Cosa:** tolte emoji e simboli dal sito: icone dei riquadri "Che problema hai?", fulmine e telefono nella barra in alto, icone dei punti nella testata (ora numeri 01-02-03), stelline nel badge e nelle recensioni, spunte negli elenchi (ora pallini oro disegnati in CSS).
 **Perché:** regola del cliente: mai emoji. Aggiunta in `agent.md` e `brand/voice.md`.
