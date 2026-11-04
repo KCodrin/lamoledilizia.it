@@ -222,3 +222,19 @@ tbody td:nth-child(2) { font-weight: 600; }
 .hero-home-in { padding-top: 140px; }
 .hero { padding-top: calc(106px + clamp(48px, 8vw, 110px)); }
 @media (max-width: 600px) { .site-header.pill { margin-inline: 24px; } }
+
+/* Home: "Che problema hai?", passi, FAQ */
+.problems { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-bottom: 20px; }
+.problem { display: flex; align-items: center; gap: 14px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 14px; text-decoration: none; font-weight: 600; background: #fff; transition: border-color .2s, transform .2s; }
+.problem span { flex: none; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; background: var(--paper-2); font-size: 1.3rem; }
+.problem::after { content: "→"; margin-left: auto; color: var(--gold-dark); }
+.problem:hover { border-color: var(--gold); transform: translateY(-2px); }
+.steps { list-style: none; counter-reset: s; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap); }
+.steps li { counter-increment: s; background: #fff; border-radius: 14px; padding: 24px; color: var(--muted); }
+.steps li::before { content: counter(s); display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--ink); color: var(--gold); font-weight: 800; margin-bottom: 14px; }
+.steps strong { display: block; color: var(--ink); font-size: 1.1rem; margin-bottom: 6px; }
+.faq { border-bottom: 1px solid var(--line); padding: 18px 0; }
+.faq summary { cursor: pointer; font-weight: 700; font-size: 1.05rem; }
+.faq p { margin: 10px 0 0; color: var(--muted); }
+@media (max-width: 980px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .steps { grid-template-columns: 1fr; } }

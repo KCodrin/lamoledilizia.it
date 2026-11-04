@@ -15,7 +15,9 @@
 ## Da confermare con il cliente
 - Testo legale di privacy e cookie policy (ora c'è una pagina segnaposto `privacy-policy.html`).
 - Recensioni: riportate a mano 3 recensioni Google (2020-2022). Aggiornarle o collegare il widget Google?
-- Numeri dichiarati nel vecchio sito, da verificare: "risparmio fino al 70%" e "risparmio medio del 40%", "garanzia fino a 20 anni", "riciclo 98%", "-40% dispersioni".
+- Numeri del vecchio sito tolti dai testi finché non vengono confermati: "risparmio fino al 70%" / "medio 40%", "garanzia fino a 20 anni", "riciclo 98%", "-40% dispersioni", "-70% sporco per 5 anni".
+- Promesse nuove nei testi, da confermare che le fate davvero: foto prima/dopo e relazione con foto a fine lavoro, preventivo "senza impegno", "pronti in 1-2 giorni", "di norma nessun permesso di suolo pubblico", durata della garanzia sull'impermeabilizzazione.
+- Tecniche citate nel vecchio sito e tolte perché poco credibili o da verificare: grafene, robot telecomandati, raggi UV-C, ISO 14001.
 - Foto: molte immagini sono illustrative. Ci sono foto vere dei cantieri?
 - Hosting e dominio dove pubblicare.
 

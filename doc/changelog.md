@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-04 · Testi più chiari: cosa facciamo e per chi
+**Cosa:** riscritta la home. Il titolo ora dice cosa facciamo ("Lavori su tetti e facciate senza ponteggi"). Aggiunte le sezioni "Che problema hai?" (8 problemi collegati al servizio giusto), "Come gli alpinisti, ma sul tuo palazzo" (cos'è l'edilizia su fune), "Per chi lavoriamo" (amministratori, aziende, privati), "Come lavoriamo" (4 passi) e "Domande frequenti" (6 domande). Riscritte le 12 pagine dei servizi con lo schema problema → cosa ricevi → come interveniamo, togliendo il gergo tecnico (grafene, robot, UV-C, nanotecnologie). La fascia finale di ogni servizio ora nomina quel servizio. Tolte le percentuali in contrasto tra loro (70% e 40% di risparmio).
+**Perché:** il sito descriveva l'azienda più che i problemi che risolve; testi poco credibili e numeri incoerenti.
+**Verifica:** pagine rigenerate, nessun link rotto; testo della home e di una pagina servizio controllato nel browser (screenshot non disponibili: pannello nascosto).
+
 ## 2026-11-04 · Header dentro la hero
 **Cosa:** l'header a pillola ora sta dentro la testata con foto (sopra l'immagine) invece che sopra di essa, su tutte le pagine; continua a restare fisso scorrendo.
 **Perché / Dettagli:** richiesto dal cliente. Solo CSS, in fondo a `assets/css/style.css`.

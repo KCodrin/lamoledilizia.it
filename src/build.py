@@ -38,94 +38,95 @@ CATS = [
 
 SERVICES = {
     "servizi-allontanamento-volatili": dict(title="Allontanamento Volatili", img="allontanamento-volatili.jpg",
-        desc="Allontanamento Volatili con reti UV e dissuasori acustici: materiali ecologici, estetica discreta, monitoraggio fotografico e protezione duratura.",
-        lead="Proteggi il tuo edificio dai volatili con La Mole Edilizia Su Fune. Offriamo soluzioni intelligenti e discrete per allontanare piccioni e altri volatili, prevenendo danni e garantendo l’igiene del tuo immobile.",
-        body="Proteggiamo edifici storici, complessi industriali e spazi urbani da piccioni, storni e altri volatili con sistemi dissuasivi intelligenti ed esteticamente discreti. Grazie a una combinazione di tecnologie passive e attive preveniamo la proliferazione di agenti patogeni e il degrado estetico, nel pieno rispetto della fauna e delle normative sulla tutela ambientale.",
-        feats=[("Soluzioni ibride", "Integriamo reti in polietilene UV-resistenti con dissuasori elettroacustici a frequenza variabile e adattabili a ogni contesto architettonico. Offriamo soluzioni personalizzate per ogni tipo di edificio e di problema."),
-               ("Materiali biocompatibili", "Utilizziamo componenti atossici (acciaio inox satinato, filamenti in PET riciclato) che non danneggiano gli animali e rispettano la fauna locale."),
-               ("Analisi post-installazione", "Monitoriamo l’efficacia con report fotografici e termografici, garantendo interventi correttivi immediati se necessari e risultati duraturi e misurabili.")]),
+        desc="Allontanamento piccioni e volatili da tetti, cornicioni e facciate con reti e dissuasori discreti, installati su fune senza ponteggi. Torino e tutta Italia.",
+        problem="Piccioni e storni su cornicioni, balconi e sottotetti sporcano, rovinano le facciate e portano malattie. Li allontaniamo in modo discreto e senza fare male agli animali.",
+        how=[("Sopralluogo", "Vediamo dove si posano e nidificano i volatili e scegliamo la soluzione giusta per quell’edificio."),
+             ("Reti e dissuasori", "Installiamo reti resistenti al sole e dissuasori poco visibili, in acciaio inox o materiali riciclati, che non feriscono gli animali."),
+             ("Pulizia e installazione dalla fune", "Puliamo le zone sporche e montiamo i sistemi calandoci dall’alto: niente ponteggio, niente cestello in strada.")],
+        get=["Edificio protetto senza rovinarne l’aspetto", "Foto del lavoro fatto", "Controllo successivo e ritocchi se servono"]),
     "servizi-lavaggio-vetri": dict(title="Lavaggio Vetri", img="lavaggio-vetri.jpg",
-        desc="Lavaggio Vetri professionale per vetrate alte e facciate: sistemi ecologici a secco/umido, zero aloni, sicurezza su fune, sanificazione certificata.",
-        lead="La luce che valorizza i tuoi spazi. Il nostro servizio di lavaggio vetri garantisce cristallinità e igiene impeccabili per vetrate di ogni dimensione, anche in contesti architettonici complessi o in altezza.",
-        body="Grazie a sistemi di pulizia dinamici e sostenibili, eliminiamo residui organici, calcare e smog senza danneggiare superfici o interrompere le attività sottostanti, assicurando un risultato visibile e duraturo: vetrate senza aloni o macchie, che lasciano entrare la luce naturale e migliorano l’aspetto del tuo edificio.",
-        feats=[("Tecnologia a secco e a umido", "Alterniamo metodi ecologici a basso consumo idrico con detergenti biodegradabili, adattandoci alle esigenze del vetro (stratificato, temperato, antiriflesso)."),
-               ("Sicurezza attiva", "Operiamo anche con piattaforme aeree, dispositivi anticaduta e in completa sospensione, evitando rischi per personale e terzi, con attrezzature all’avanguardia e personale altamente qualificato."),
-               ("Garanzia di brillantezza", "Offriamo un controllo qualità post-intervento con certificazione di avvenuta sanificazione.")]),
+        desc="Lavaggio vetri e vetrate in altezza con tecnici su fune: pulizia senza aloni di facciate continue e superfici difficili da raggiungere, senza ponteggi.",
+        problem="Vetrate alte e facciate in vetro difficili da raggiungere si coprono di smog, calcare e sporco. Le puliamo calandoci dall’alto, senza fermare le attività di chi sta sotto.",
+        how=[("Metodo adatto al vetro", "Usiamo acqua e detergenti biodegradabili, con il metodo giusto per ogni tipo di vetro: temperato, stratificato o antiriflesso."),
+             ("Accesso su fune o piattaforma", "Raggiungiamo ogni punto con corde e dispositivi anticaduta, o con piattaforme aeree quando conviene."),
+             ("Controllo finale", "A fine lavoro verifichiamo insieme il risultato.")],
+        get=["Vetri puliti e senza aloni", "Nessun ponteggio davanti all’edificio", "Possibilità di pulizie programmate"]),
     "servizi-pulizia-canali-gronda-e-tetti": dict(title="Pulizia Canali Gronda e Tetti", img="pulizia-tetti.jpg",
-        desc="Pulizia Canali Gronda e Tetti: rimozione detriti, igienizzazione UV-C, coating anti-sporco, report termografico e riciclo rifiuti al 98%.",
-        lead="Mantieni il tuo edificio sano e protetto. Offriamo un servizio completo di pulizia e manutenzione di grondaie e tetti, per prevenire allagamenti, infiltrazioni e danni strutturali.",
-        body="Con tecnologie non invasive e mappatura digitale rimuoviamo detriti, sedimenti e biofilm da grondaie, pluviali e tetti, anche in aree complesse o sensibili, garantendo un flusso idrico ottimale.",
-        feats=[("Tecnologia robotica e analisi avanzata", "Utilizziamo robot telecomandati con testine rotanti a pressione regolabile e telecamere endoscopiche. Al termine verifichiamo il sistema di deflusso con termocamere a infrarossi per individuare eventuali criticità residue."),
-               ("Eco-sostenibilità e gestione dei rifiuti", "Ricicliamo il 98% dei rifiuti raccolti tramite CSR Plastic Credit, il certificato digitale che dimostra la rimozione dei rifiuti plastici dall’ambiente."),
-               ("Igienizzazione e protezione avanzata", "Schiume biodegradabili per sgrassare le superfici e raggi UV-C per decontaminare senza biocidi inquinanti. Applichiamo coating idrorepellenti nanostrutturati che riducono l’adesione di nuovi contaminanti fino al 70% per 5 anni."),
-               ("Certificazione e consulenza tecnica", "Forniamo un rapporto tecnico di portata idrica pre/post intervento e consigli personalizzati per la durata e l’efficienza del sistema di smaltimento delle acque piovane.")]),
+        desc="Pulizia di grondaie, pluviali e tetti con accesso su fune: rimozione di foglie, muschio e detriti per evitare allagamenti e infiltrazioni.",
+        problem="Grondaie e pluviali intasati da foglie e detriti fanno traboccare l’acqua, che finisce su facciate, balconi e solai. Il risultato sono infiltrazioni e danni.",
+        how=[("Ispezione", "Controlliamo grondaie, pluviali e tetto, anche con videocamere nei tratti chiusi."),
+             ("Pulizia completa", "Togliamo foglie, terra, muschio e detriti e liberiamo i pluviali, lavorando dalla fune nei punti difficili."),
+             ("Verifica dello scarico", "Controlliamo che l’acqua scorra bene fino a terra e segnaliamo eventuali parti rotte."),
+             ("Rifiuti smaltiti correttamente", "Portiamo via tutto e lo avviamo al riciclo.")],
+        get=["Grondaie e pluviali liberi", "Foto prima e dopo", "Consigli su ogni quanto ripetere la pulizia"]),
     "servizi-sicurezza-e-check-up-tetti": dict(title="Sicurezza e Check-up Tetti", img="check-up-tetti.jpg",
-        desc="Check-up tetti e sicurezza con droni, accesso su fune e dossier manutenzione: rileviamo criticità senza ponteggi e proteggiamo coperture civili e industriali.",
-        lead="Proteggi il cuore del tuo edificio: il tetto. Offriamo un servizio integrato di sicurezza e check-up che garantisce stabilità e integrità a ogni tipo di copertura, dalle abitazioni private ai complessi industriali.",
-        body="Unendo messa in sicurezza e check-up avanzati assicuriamo una protezione completa, dalla valutazione preliminare alla manutenzione continua. Le nostre ispezioni non invasive si avvalgono di diagnostica ibrida per mappare lo stato del tetto e identificare le criticità prima che diventino emergenze.",
-        feats=[("Progettazione e analisi su misura", "Ogni intervento è preceduto da una valutazione strutturale personalizzata e da rilievi accurati. Utilizziamo droni per identificare microfessure e altri problemi nascosti."),
-               ("Tecniche senza ponteggi", "Sistemi su fune e piattaforme sospese riducono tempi e impatti sull’edificio: meno disagi per te, più efficienza nel lavoro."),
-               ("Materiali e certificazione", "Impieghiamo leghe certificate e componenti antisismici, rilasciando un dossier completo con classe di rischio e piano di manutenzione personalizzato.")]),
+        desc="Check-up del tetto senza ponteggi: ispezione su fune e con drone, relazione con foto e piano di manutenzione per coperture civili e industriali.",
+        problem="Un tegola spostata o una piccola crepa sul tetto oggi diventano domani un’infiltrazione o un pericolo per chi passa sotto. Il check-up li trova prima.",
+        how=[("Ispezione dall’alto", "Usiamo il drone per avere una visione completa e scendiamo su fune per controllare da vicino i punti critici."),
+             ("Messa in sicurezza", "Se troviamo elementi pericolanti li sistemiamo o li mettiamo in sicurezza subito."),
+             ("Relazione", "Ti consegniamo un documento con foto, problemi trovati, livello di urgenza e un piano di manutenzione.")],
+        get=["Fotografia chiara dello stato del tetto", "Priorità degli interventi", "Piano di manutenzione"]),
     "servizi-impermeabilizzazione-tetti-cornicioni-e-terrazzi": dict(title="Impermeabilizzazione Tetti, Cornicioni e Terrazzi", img="impermeabilizzazione-tetti.jpg",
-        desc="Impermeabilizzazione tetti, cornicioni e terrazzi con membrane nanotecnologiche autorigeneranti: stop infiltrazioni, resiste da -30° a +120°, garanzia 20 anni.",
-        lead="Proteggi il tuo investimento. Realizziamo impermeabilizzazioni su misura per tetti, cornicioni e terrazzi, utilizzando nanotecnologie e materiali innovativi per una protezione duratura contro le infiltrazioni.",
-        body="Proteggiamo le superfici orizzontali e verticali da infiltrazioni, umidità e degrado ambientale con sistemi di barriera attiva progettati su misura. Combiniamo nanotecnologie autorigeneranti, membrane polimeriche ad altissima adesività e trattamenti fotocatalitici per garantire tenuta idraulica, resistenza agli sbalzi termici (-30°C/+120°C) e integrazione estetica con qualsiasi contesto architettonico.",
-        feats=[("Strati compositi intelligenti", "Utilizziamo film ibridi in grafene modificato e silossani, che reagiscono alle microlesioni ripristinando autonomamente l’impermeabilità."),
-               ("Certificazione climatica", "Rilasciamo garanzie fino a 20 anni con mappatura digitale delle prestazioni, allineate agli standard ISO 14001 per l’edilizia sostenibile.")]),
+        desc="Impermeabilizzazione di tetti, cornicioni e terrazzi senza ponteggi: guaine e trattamenti resistenti al caldo e al gelo contro le infiltrazioni.",
+        problem="Quando tetti, cornicioni e terrazzi non tengono più l’acqua, compaiono macchie, muffa e intonaco che si stacca. Rifacciamo l’impermeabilizzazione anche dove arrivare è difficile.",
+        how=[("Ricerca del punto debole", "Individuiamo da dove entra l’acqua prima di intervenire."),
+             ("Preparazione", "Puliamo e ripariamo la superficie, togliendo le parti rovinate."),
+             ("Nuova impermeabilizzazione", "Applichiamo guaine o membrane liquide adatte a quella superficie, resistenti al sole, al gelo e agli sbalzi di temperatura."),
+             ("Lavoro su fune", "Su cornicioni e parti alte lavoriamo calandoci dall’alto, senza ponteggio.")],
+        get=["Superfici che non fanno più passare l’acqua", "Garanzia sul lavoro (durata da concordare)", "Foto dell’intervento"]),
     "servizi-isolamento-termico": dict(title="Isolamento Termico", img="isolamento-termico.jpg",
-        desc="Isolamento Termico su misura con pannelli ad alta densità, schiume espandibili e posa a secco: −40 % dispersioni, comfort costante e certificazione UNI 11716.",
-        lead="Crea il tuo comfort ideale. Progettiamo sistemi avanzati di isolamento termico su misura, per ottimizzare l’efficienza energetica del tuo edificio e migliorare il benessere abitativo.",
-        body="Per edifici residenziali, industriali e beni culturali usiamo materiali innovativi a basso impatto ambientale e tecniche di posa non invasive: riduciamo le dispersioni termiche fino al 40%, garantendo comfort abitativo e bollette più leggere.",
-        feats=[("Soluzioni integrate", "Combiniamo strati termoriflettenti, pannelli compositi ad alta densità e schiume poliuretaniche espandibili, selezionati in base alle caratteristiche strutturali dell’edificio."),
-               ("Tecnologia a secco", "Evitiamo demolizioni grazie a sistemi di ancoraggio meccanico e lavori in completa sospensione, ideali per facciate delicate o vincolate."),
-               ("Certificazione UNI 11716:2018", "Rilasciamo attestazioni di corretta posa dei sistemi di isolamento a cappotto secondo lo standard ETICS, in conformità alla norma UNI 11716:2018."),
-               ("Monitoraggio post-intervento", "Su richiesta eseguiamo verifiche con termocamere a infrarossi per monitorare le prestazioni energetiche e identificare eventuali ponti termici residui.")]),
+        desc="Isolamento termico e cappotto anche su fune: meno dispersioni di calore, più comfort e bollette più leggere, con posa certificata UNI 11716.",
+        problem="Una casa che d’inverno disperde calore e d’estate si scalda troppo costa di più in bolletta ed è meno confortevole. Un buon isolamento risolve il problema.",
+        how=[("Analisi", "Valutiamo l’edificio e dove si perde calore, anche con la termocamera."),
+             ("Materiali adatti", "Scegliamo pannelli e materiali isolanti in base alla struttura e al tipo di facciata."),
+             ("Posa anche senza ponteggio", "Dove possibile lavoriamo su fune, con sistemi fissati meccanicamente che evitano demolizioni."),
+             ("Posa certificata", "Rilasciamo l’attestato di corretta posa del cappotto secondo la norma UNI 11716:2018.")],
+        get=["Meno dispersioni e più comfort", "Attestato di corretta posa", "Controllo con termocamera su richiesta"]),
     "servizi-isolamento-e-rifacimento-tetti": dict(title="Isolamento e Rifacimento Tetti", img="isolamento-e-rifacimento-tetti.jpg",
-        desc="Isolamento termico-acustico e rifacimento tetti: comfort, efficienza energetica e protezione garantiti, pratica incentivi e garanzia completa.",
-        lead="Rinnova il tuo tetto: comfort, efficienza e protezione in un unico intervento. Trasformiamo la tua copertura in un elemento di pregio, capace di migliorare il comfort, ridurre i costi energetici e proteggere l’edificio dagli agenti atmosferici.",
-        body="Siamo specializzati nell’isolamento termico e acustico e nel rifacimento completo di tetti residenziali, commerciali e industriali, dalle tradizionali tegole ai moderni sistemi a pannelli. Il nostro approccio comprende diagnosi preliminare, progettazione su misura, selezione dei materiali, esecuzione dei lavori e collaudo finale.",
-        feats=[("Materiali isolanti di nuova generazione", "Lane minerali ecologiche, pannelli in fibra di legno, schiume poliuretaniche a spruzzo e membrane traspiranti. Con l’insufflaggio nelle intercapedini esistenti riduciamo tempi e disagi."),
-               ("Rifacimento e personalizzazione", "Rimozione della vecchia copertura, riparazione delle strutture portanti, nuovi sistemi di impermeabilizzazione e ventilazione, manto in tegole, coppi, pannelli metallici o fotovoltaico integrato."),
-               ("Incentivi fiscali e garanzia", "Ti supportiamo nella richiesta degli incentivi per la riqualificazione energetica e offriamo una garanzia completa su materiali e manodopera.")]),
+        desc="Rifacimento e isolamento tetti per case, condomini e aziende: nuova copertura, isolamento termico e acustico, supporto per gli incentivi fiscali.",
+        problem="Un tetto vecchio fa entrare acqua, disperde calore e prima o poi va rifatto. Lo rinnoviamo completamente, isolandolo per farti risparmiare energia.",
+        how=[("Diagnosi e progetto", "Valutiamo lo stato del tetto e proponiamo la soluzione più adatta all’edificio e al budget."),
+             ("Rimozione e riparazione", "Togliamo la vecchia copertura e sistemiamo le strutture rovinate."),
+             ("Isolamento e impermeabilizzazione", "Posiamo isolanti termici e acustici, guaine e ventilazione."),
+             ("Nuova copertura", "Tegole, coppi, pannelli metallici o fotovoltaico integrato, a scelta.")],
+        get=["Tetto nuovo e isolato", "Supporto per le pratiche degli incentivi fiscali", "Garanzia su materiali e manodopera"]),
     "servizi-installazione-e-revisione-linee-vita": dict(title="Installazione e Revisione Linee Vita", img="linee-vita.jpg",
-        desc="Installazione e Revisione Linee Vita certificate UNI 11900: ancoraggi modulari, cavi inox, manutenzione predittiva e report digitali per massima sicurezza in quota.",
-        lead="Lavora in sicurezza. Offriamo un servizio completo di installazione e revisione linee vita, per garantire la massima protezione durante i lavori in quota e la manutenzione del tuo edificio.",
-        body="Installiamo e revisioniamo linee vita per lavori in quota, manutenzioni e accessi tecnici, con soluzioni personalizzate per coperture, facciate e strutture industriali, nel rispetto della norma UNI 11900.",
-        feats=[("Certificazioni internazionali", "Ogni linea vita è testata in laboratori accreditati e dotata di documentazione CE, con schede aggiornate alle direttive europee."),
-               ("Tecnologia modulare", "Ancoraggi fissi, rotaie guidate e cavi inox autobloccanti, compatibili con dispositivi di terzi."),
-               ("Materiali resistenti", "Cavi in acciaio zincato-aramidico e giunti anticorrosione, progettati per resistere a carichi elevati."),
-               ("Manutenzione predittiva", "Ispezioni periodiche con report digitali e sostituzione preventiva dei componenti usurati.")]),
+        desc="Installazione e revisione linee vita a norma UNI 11900 su tetti e coperture: ancoraggi certificati, ispezioni periodiche e documentazione CE.",
+        problem="Chi sale sul tetto per manutenzioni deve potersi agganciare in sicurezza: la linea vita è obbligatoria e va controllata periodicamente.",
+        how=[("Progetto", "Studiamo la copertura e decidiamo dove posizionare ancoraggi e cavi."),
+             ("Installazione", "Montiamo ancoraggi, binari e cavi in acciaio certificati, compatibili con i dispositivi più diffusi."),
+             ("Revisione periodica", "Ispezioniamo le linee esistenti e sostituiamo i pezzi usurati.")],
+        get=["Linea vita a norma UNI 11900", "Documentazione e certificazioni CE", "Promemoria per le revisioni"]),
     "servizi-messa-in-sicurezza": dict(title="Messa in sicurezza", img="messa-in-sicurezza.jpg",
-        desc="Messa in sicurezza facciate con tecnica su fune: consolidamenti rapidi, reti in fibra e resine, documentazione e agibilità certificate.",
-        lead="Proteggi l’involucro del tuo edificio. Siamo specialisti nella manutenzione delle facciate, un servizio completo per preservare la sicurezza del tuo immobile.",
-        body="Interveniamo su facciate storiche e moderne a rischio di degrado: con la tecnica su fune trattiamo lesioni, distacchi o cedimenti, garantendo l’integrità delle pareti e delle strutture di sostegno anche dove l’accesso è difficile. Mettiamo in sicurezza subito l’edificio, così il rifacimento della facciata si può programmare con calma.",
-        feats=[("Approccio integrato", "Combiniamo metodi di consolidamento tradizionali con tecniche innovative, come reti in fibra di vetro o iniezioni di resine stabilizzanti."),
-               ("Certificazione di conformità", "Forniamo documentazione tecnica conforme alle normative nazionali e internazionali e rilascio di agibilità in condizione di sicurezza.")]),
+        desc="Messa in sicurezza urgente di facciate, cornicioni e balconi con tecnica su fune: rimozione parti pericolanti, consolidamento e documentazione.",
+        problem="Intonaco che si stacca, cornicioni crepati, frontalini dei balconi che cadono: sono un pericolo immediato per chi passa sotto. Interveniamo in fretta, senza aspettare il ponteggio.",
+        how=[("Intervento rapido", "Raggiungiamo la facciata su fune e rimuoviamo subito le parti pericolanti."),
+             ("Consolidamento", "Fissiamo le zone a rischio con reti in fibra o resine, così il rifacimento si può programmare con calma."),
+             ("Documentazione", "Rilasciamo la documentazione tecnica sull’intervento e sulle condizioni di sicurezza.")],
+        get=["Pericolo eliminato in tempi brevi", "Relazione per amministratore e Comune", "Indicazioni per il rifacimento"]),
     "servizi-ricerca-e-riparazione-infiltrazioni": dict(title="Ricerca e Riparazione Infiltrazioni", img="infiltrazioni-da-tetto.jpg",
-        desc="Ricerca e Riparazione Infiltrazioni in tetti e muri con termocamere e idro-sonde non invasive. Sigilli nanoresina: stop muffe, danni e sprechi.",
-        lead="Dì addio alle infiltrazioni. Con tecnologie avanzate e metodi non invasivi individuiamo e risolviamo le perdite idriche nascoste, proteggendo il tuo edificio da danni e sprechi.",
-        body="Siamo i detective dell’acqua: scoviamo perdite nascoste in coperture, murature e strutture interrate. Con mappatura termoigrometrica e idro-sonde ad alta frequenza individuiamo anche le micro-fessure invisibili a occhio nudo, con riparazioni definitive che prevengono muffe, danni strutturali e sprechi energetici, senza demolire nulla.",
-        feats=[("Diagnostica predittiva", "Metodologie di ultima generazione per mappare e individuare le infiltrazioni con precisione, riducendo tempi e costi e prevenendo danni futuri."),
-               ("Riparazioni nanostrutturate", "Iniettiamo sigillanti espandibili a base di silicio attivo o resine epossidiche modificate, che aderiscono senza alterare permeabilità o aspetto delle superfici."),
-               ("Verifica non distruttiva", "A fine intervento eseguiamo controlli non invasivi per certificare l’assenza di accumuli d’acqua, umidità residua o punti critici."),
-               ("Sostenibilità integrata", "Recuperiamo e ricicliamo i liquidi estratti durante gli interventi, riducendo al minimo l’impatto ambientale.")]),
+        desc="Ricerca infiltrazioni d’acqua con termocamera e strumenti non invasivi, e riparazione mirata senza demolire, su tetti, facciate e muri.",
+        problem="Una macchia sul soffitto o una muffa che torna sempre: spesso l’acqua entra da un punto lontano da dove si vede. Troviamo l’origine e la ripariamo.",
+        how=[("Ricerca strumentale", "Usiamo termocamera e misuratori di umidità per trovare il punto esatto da cui entra l’acqua, senza rompere nulla."),
+             ("Riparazione mirata", "Sigilliamo crepe e fessure con prodotti specifici, raggiungendo i punti alti su fune."),
+             ("Verifica", "A lavoro finito controlliamo che non ci sia più umidità.")],
+        get=["Causa trovata, non solo il sintomo", "Riparazione senza demolizioni", "Verifica finale dell’umidità"]),
     "servizi-rifacimento-facciate": dict(title="Rifacimento Facciate", img="rifacimento-facciate.jpg",
-        desc="Restauro completo di facciate residenziali, commerciali e storiche: diagnosi 3D, materiali innovativi, cappotto termico, permessi gestiti e garanzia totale.",
-        lead="Dona nuova vita al volto del tuo edificio. Trasformiamo facciate obsolete e danneggiate combinando design, materiali di pregio e tecniche di riqualificazione all’avanguardia, per valorizzare l’estetica, migliorare l’efficienza energetica e proteggere il tuo immobile nel tempo.",
-        body="Rifacciamo facciate di edifici residenziali, commerciali e storici, dal restauro conservativo di intonaci antichi al rivestimento con materiali innovativi. Il nostro approccio comprende diagnosi preliminare, progettazione su misura, selezione dei materiali, esecuzione dei lavori e collaudo finale.",
-        feats=[("Diagnosi e progettazione personalizzata", "Analizziamo lo stato della facciata con termocamere, droni e rilievo 3D, e sviluppiamo progetti che tengono conto di estetica, budget, contesto architettonico e normative."),
-               ("Materiali e tecniche innovative", "Intonaci termoisolanti, rivestimenti fotocatalitici autopulenti, facciate ventilate e vetri a controllo solare; piattaforme aeree e sistemi in fune riducono tempi e disagi."),
-               ("Estetica e protezione", "Rimuoviamo gli elementi degradati, risaniamo le criticità strutturali e applichiamo finiture resistenti e trattamenti contro muffe e umidità. Quando richiesto integriamo il cappotto termico."),
-               ("Gestione completa del progetto", "Dalla richiesta dei permessi edilizi alla direzione lavori, coordiniamo tutte le figure coinvolte rispettando tempi e costi, con garanzia completa su materiali e manodopera.")]),
+        desc="Rifacimento e restauro facciate di condomini, aziende ed edifici storici: diagnosi, intonaci, pitture, cappotto termico e gestione delle pratiche.",
+        problem="Una facciata rovinata peggiora l’aspetto e il valore dell’edificio e col tempo lascia passare acqua e umidità. La rifacciamo dalla diagnosi al collaudo.",
+        how=[("Diagnosi", "Analizziamo la facciata anche con drone e termocamera per capire cosa va sistemato."),
+             ("Progetto e pratiche", "Prepariamo il progetto e ci occupiamo dei permessi edilizi necessari."),
+             ("Lavori", "Rimuoviamo le parti rovinate, rifacciamo intonaci e finiture e, se richiesto, aggiungiamo il cappotto termico. Su fune o piattaforma, a seconda dell’edificio."),
+             ("Collaudo", "Verifichiamo il risultato finale.")],
+        get=["Un solo referente per tutto il lavoro", "Facciata protetta da acqua e muffa", "Garanzia su materiali e manodopera"]),
     "servizi-lattoneria-edile": dict(title="Lattoneria edile", img="lattoneria-edile.jpg",
-        desc="Realizziamo grondaie, pluviali, coperture e rivestimenti metallici, sistemi parafulmine: lattoneria artigianale su misura, protezione e deflusso acque garantiti.",
-        lead="La lattoneria edile abbraccia una vasta gamma di interventi tecnici e artigianali, fondamentali per la protezione e il corretto drenaggio degli edifici, sempre finalizzati a garantire efficienza, durabilità e sicurezza.",
-        body="Affidarsi a La Mole Edilizia su Fune significa contare su un team esperto in opere di lattoneria precise, funzionali e durature, pensate per proteggere e valorizzare ogni tipo di edificio.",
-        feats=[("Esperienza su ogni tipo di copertura", "Dalle coperture a falde ai tetti piani delle architetture moderne, adattiamo ogni intervento alle esigenze dell’edificio, assicurando il corretto deflusso delle acque piovane."),
-               ("Sistema di raccolta acque", "Progettiamo e installiamo grondaie e pluviali con cura artigianale, evitando ristagni e infiltrazioni."),
-               ("Coperture e rivestimenti metallici", "Coperture e facciate in metallo con giunzioni a graffatura semplice o doppia: impermeabili, resistenti e belle da vedere."),
-               ("Impianti parafulmine", "Installiamo sistemi parafulmine certificati per proteggere persone ed edificio da eventi atmosferici estremi."),
-               ("Un solo partner", "Dalla progettazione alla realizzazione, un servizio chiavi in mano che unisce artigianalità, tecnologia e attenzione al dettaglio.")]),
+        desc="Lattoneria edile su misura: grondaie, pluviali, scossaline, coperture metalliche e impianti parafulmine, installati anche su fune.",
+        problem="Grondaie rotte, scossaline staccate e pluviali bucati fanno finire l’acqua dove non deve. Realizziamo e sostituiamo tutte le opere in lamiera dell’edificio.",
+        how=[("Grondaie e pluviali", "Progettiamo e installiamo sistemi di raccolta dell’acqua su misura, per tetti a falde e piani."),
+             ("Coperture e rivestimenti metallici", "Realizziamo coperture e facciate in metallo con giunzioni a graffatura."),
+             ("Impianti parafulmine", "Installiamo sistemi parafulmine certificati."),
+             ("Dalla fune", "Montiamo tutto senza ponteggio, anche nei punti più alti.")],
+        get=["Lavoro su misura, chiavi in mano", "Acqua piovana che scorre dove deve", "Un solo partner dalla misura al montaggio"]),
 }
 PARENT = {s: c for c in CATS for s in c["items"]}
 
@@ -145,6 +146,14 @@ INTRO_AZIENDA = "Siamo un’eccellenza fondata a Torino e operativa in tutta Ita
 
 VANTAGGI_SHORT = """<p>Il vantaggio risiede nella capacità di intervenire in modo rapido ed efficace senza l’installazione di ponteggi, con un notevole risparmio economico e logistico. Grazie all’edilizia su fune riduciamo significativamente i tempi di esecuzione, limitando i disagi per condomini e passanti.</p>
 <p>Ogni operazione viene svolta nel pieno rispetto dei protocolli di sicurezza più avanzati, con attrezzature all’avanguardia e un approccio che preferisce soluzioni sostenibili, con un impatto minimo sul contesto urbano.</p>"""
+
+FAQ = [("Serve il ponteggio?", "No. Lavoriamo calandoci dall’alto con corde e imbragature. In alcuni casi usiamo piattaforme aeree, ma mai ponteggi."),
+       ("Serve un permesso per occupare il suolo pubblico?", "Di norma no, perché non montiamo strutture sul marciapiede. Lo verifichiamo comunque al sopralluogo, caso per caso."),
+       ("È sicuro?", "Sì. I nostri tecnici sono formati con la Scuola di Alpinismo Valli di Lanzo e lavorano secondo il D.Lgs. 81/08, con attrezzature certificate."),
+       ("Quanto costa?", "Dipende dall’intervento: per questo facciamo prima un sopralluogo e poi un preventivo dettagliato. Senza ponteggio i costi sono in genere più bassi."),
+       ("Ci saranno disagi per chi abita nel palazzo?", "Pochi: niente impalcature davanti alle finestre e cantieri molto più brevi. Le zone sotto l’intervento vengono delimitate solo mentre lavoriamo."),
+       ("In che zone lavorate?", "Siamo a Grugliasco (Torino) e lavoriamo soprattutto in Piemonte e Nord Italia, ma interveniamo in tutta Italia.")]
+FAQ_HTML = "".join(f"<details class=\"faq\"><summary>{q}</summary><p>{a}</p></details>" for q, a in FAQ)
 
 CERTS = [("bureau-veritas.jpg", "Bureau Veritas", "Certificazioni di qualità e sicurezza nei processi lavorativi."),
          ("csr-plastic-credit.jpg", "CSR Plastic Credit", "Riciclo certificato dei rifiuti plastici."),
@@ -274,11 +283,11 @@ def hero(title, text, img, eyebrow=""):
 """
 
 
-def cta():
+def cta(title="Hai bisogno di un intervento in quota, senza ponteggi?"):
     return f"""<section class="cta">
 <div class="wrap cta-in">
-<div><h2>Hai bisogno di interventi in quota rapidi, sicuri e senza ponteggi?</h2>
-<p>Con la nostra esperienza e tecniche innovative trasformiamo ogni progetto in un successo concreto, dalla manutenzione al restauro. Mettiamo la nostra competenza al servizio delle tue esigenze.</p></div>
+<div><h2>{title}</h2>
+<p>Raccontaci il problema: facciamo un sopralluogo e ti mandiamo un preventivo chiaro, senza impegno.</p></div>
 <div class="cta-actions"><a class="btn" href="contatti.html">Contattaci ora</a><a class="btn btn-ghost" href="tel:{TEL_LINK}">Chiama {TEL}</a></div>
 </div>
 </section>
@@ -322,31 +331,55 @@ def build():
          f"""<section class="hero-home" style="background-image:url('assets/img/slide-1.jpg')">
 <div class="hero-home-in">
 <p class="badge">★ Valutazione eccellente su Google</p>
-<h1>La tua difesa contro<br><em>i rischi nascosti.</em></h1>
-<div class="hero-actions"><a class="btn btn-pill" href="contatti.html">Richiedi un preventivo ↗</a><p>Edilizia su fune a Torino e in tutta Italia: interventi rapidi e sicuri, senza ponteggi.</p></div>
+<h1>Lavori su tetti e facciate<br><em>senza ponteggi.</em></h1>
+<div class="hero-actions"><a class="btn btn-pill" href="contatti.html">Richiedi un sopralluogo ↗</a><p>Infiltrazioni, facciate, grondaie, linee vita: interveniamo calandoci con le corde, come gli alpinisti. Torino e tutta Italia.</p></div>
 <ul class="hero-feats">
-<li><span>↕</span>Zero ponteggi<br>interventi diretti dalla fune</li>
-<li><span>%</span>Fino al 70%<br>di risparmio sui costi</li>
-<li><span>✓</span>Personale certificato<br>tecniche dall’alpinismo</li>
+<li><span>↕</span>Niente ponteggio<br>meno costi, meno disagi</li>
+<li><span>⏱</span>Cantiere rapido<br>pronti a lavorare in 1-2 giorni</li>
+<li><span>✓</span>Tecnici formati<br>Scuola di Alpinismo Valli di Lanzo</li>
 </ul>
 </div>
 </section>
-<section class="section"><div class="wrap split">
-<div><p class="eyebrow">Chi siamo</p><h2>Soluzioni moderne, sicure e sostenibili</h2>{ABOUT}<a class="link" href="azienda.html">Scopri l’azienda</a></div>
-<img src="assets/img/lazienda.jpg" alt="Tecnico de La Mole Edilizia su Fune al lavoro in quota" loading="lazy" width="1024" height="1024">
+<section class="section"><div class="wrap">
+<p class="eyebrow">Da dove partire</p><h2>Che problema hai?</h2>
+<p class="lead">Scegli quello che vedi sul tuo edificio: ti mostriamo come lo risolviamo.</p>
+<div class="problems"><a class="problem" href="servizi-ricerca-e-riparazione-infiltrazioni.html"><span aria-hidden="true">💧</span>Macchie di umidità o acqua che entra</a><a class="problem" href="servizi-messa-in-sicurezza.html"><span aria-hidden="true">🧱</span>Intonaco o cornicioni che si staccano</a><a class="problem" href="servizi-pulizia-canali-gronda-e-tetti.html"><span aria-hidden="true">🍂</span>Grondaie intasate o che traboccano</a><a class="problem" href="servizi-allontanamento-volatili.html"><span aria-hidden="true">🕊</span>Piccioni su tetti e balconi</a><a class="problem" href="servizi-sicurezza-e-check-up-tetti.html"><span aria-hidden="true">🏠</span>Tetto vecchio da controllare o rifare</a><a class="problem" href="servizi-rifacimento-facciate.html"><span aria-hidden="true">🎨</span>Facciata rovinata da rinnovare</a><a class="problem" href="servizi-installazione-e-revisione-linee-vita.html"><span aria-hidden="true">🔗</span>Linea vita da installare o revisionare</a><a class="problem" href="servizi-lavaggio-vetri.html"><span aria-hidden="true">🪟</span>Vetrate alte da pulire</a></div>
+<p class="note">Non trovi il tuo caso? <a href="servizi-edilizia-su-fune.html">Guarda tutti i 12 servizi</a> o <a href="contatti.html">scrivici</a>.</p>
 </div></section>
+<section class="section alt"><div class="wrap split">
+<div><p class="eyebrow">Cos’è l’edilizia su fune</p><h2>Come gli alpinisti, ma sul tuo palazzo</h2>
+<p>Invece di montare un ponteggio, i nostri tecnici si calano dall’alto con corde e imbragature, usando le tecniche dell’alpinismo. Arrivano su qualsiasi punto di tetti e facciate e lavorano come farebbero da un’impalcatura.</p>
+<p>Per te significa: niente settimane di montaggio, niente struttura davanti alle finestre, meno costi e, di norma, nessun permesso per occupare il marciapiede. Il tutto in sicurezza, nel rispetto del D.Lgs. 81/08.</p>
+<a class="link" href="vantaggi.html">Confronto con il ponteggio</a></div>
+<img src="assets/img/vantaggi-3.jpg" alt="Tecnico su fune al lavoro su una facciata" loading="lazy" width="1024" height="1024">
+</div></section>
+<section class="section"><div class="wrap">
+<p class="eyebrow">Per chi lavoriamo</p><h2>Condomini, aziende e privati</h2>
+<div class="grid three">
+<div class="card"><h3>Amministratori di condominio</h3><p>Sopralluogo, preventivo chiaro da portare in assemblea, relazione con foto a fine lavoro. Nessun ponteggio che blocca cortili e ingressi.</p></div>
+<div class="card"><h3>Aziende e capannoni</h3><p>Coperture industriali, linee vita, vetrate e facciate, con interventi pianificati per non fermare l’attività.</p></div>
+<div class="card"><h3>Privati</h3><p>Dalla grondaia che perde alla facciata da rifare: interventi anche piccoli, senza i costi di un cantiere tradizionale.</p></div>
+</div></div></section>
 <section class="section alt"><div class="wrap">
-<p class="eyebrow">Servizi</p><h2>I nostri servizi</h2>
-<p class="lead">Un’ampia gamma di servizi pensati per garantire soluzioni efficaci e sicure in ogni contesto.</p>
+<p class="eyebrow">Come lavoriamo</p><h2>Dalla chiamata al lavoro finito</h2>
+<ol class="steps">
+<li><strong>Ci contatti</strong>Per telefono, WhatsApp o modulo. Ci racconti il problema, anche con una foto.</li>
+<li><strong>Sopralluogo</strong>Veniamo a vedere l’edificio e capiamo cosa serve davvero.</li>
+<li><strong>Preventivo</strong>Ricevi un preventivo chiaro, con lavori e tempi.</li>
+<li><strong>Intervento e relazione</strong>Lavoriamo su fune e a fine lavoro ti consegniamo le foto di quanto fatto.</li>
+</ol></div></section>
+<section class="section"><div class="wrap">
+<p class="eyebrow">Servizi</p><h2>Tutti i nostri servizi</h2>
+<p class="lead">Quattro aree, dodici servizi, tutti eseguiti senza ponteggio.</p>
 {cat_tiles()}</div></section>
 <section class="section"><div class="wrap">
 <p class="eyebrow">Recensioni</p><h2>La soddisfazione dei nostri clienti parla per noi</h2>
 <p class="lead">Valutazione <strong>eccellente</strong> in base a 14 recensioni su Google.</p>
 <div class="grid three">{"".join(f'<figure class="review"><blockquote>“{t}”</blockquote><figcaption>{n} · {d}</figcaption></figure>' for n, d, t in REVIEWS)}</div>
 </div></section>
-<section class="section alt"><div class="wrap split">
-<img src="assets/img/vantaggi-3.jpg" alt="Intervento su fune senza ponteggi" loading="lazy" width="1024" height="1024">
-<div><p class="eyebrow">Vantaggi</p><h2>Perché l’edilizia su fune conviene</h2>{VANTAGGI_SHORT}<a class="link" href="vantaggi.html">Tutti i vantaggi</a></div>
+<section class="section alt"><div class="wrap prose">
+<p class="eyebrow">Domande frequenti</p><h2>Le domande che ci fanno più spesso</h2>
+{FAQ_HTML}
 </div></section>
 {cta()}""", "index.html")
 
@@ -386,40 +419,40 @@ def build():
 
     for slug, s in SERVICES.items():
         c = PARENT[slug]
-        feats = "".join(f'<div class="card"><h3>{h}</h3><p>{p}</p></div>' for h, p in s["feats"])
+        steps = "".join(f'<div class="card"><h3>{h}</h3><p>{p}</p></div>' for h, p in s["how"])
+        gets = "".join(f"<li>{g}</li>" for g in s["get"])
         others = [(f"{o}.html", SERVICES[o]["title"], SERVICES[o]["img"]) for o in c["items"] if o != slug]
         page(slug, s["title"], s["desc"], s["img"],
-             hero(s["title"], s["lead"], s["img"], c["title"]) +
+             hero(s["title"], s["problem"], s["img"], c["title"]) +
              crumbs(("servizi-edilizia-su-fune.html", "Servizi"), (f'{c["slug"]}.html', c["title"]), (None, s["title"])) +
              f"""<section class="section"><div class="wrap split">
-<div><h2>Il servizio</h2><p>{s["body"]}</p><a class="btn" href="contatti.html">Richiedi un sopralluogo</a></div>
+<div><h2>Cosa ricevi</h2><ul class="checks">{gets}</ul><p class="note">Lavoriamo su fune con tecnici formati all’alpinismo: niente ponteggio, meno tempi e meno disagi.</p><a class="btn" href="contatti.html">Richiedi un sopralluogo</a></div>
 <img src="assets/img/{s["img"]}" alt="{escape(s["title"])}: intervento de La Mole Edilizia su Fune" loading="lazy" width="800" height="600">
 </div></section>
-<section class="section alt"><div class="wrap"><h2>Perché sceglierci</h2>
-<p class="lead">La nostra esperienza e professionalità ci permettono di offrire soluzioni su misura per ogni esigenza.</p>
-<div class="grid two">{feats}</div></div></section>
+<section class="section alt"><div class="wrap"><h2>Come interveniamo</h2>
+<div class="grid two">{steps}</div></div></section>
 <section class="section"><div class="wrap"><h2>Altri servizi di {c["title"]}</h2>{tiles(others)}</div></section>
-{cta()}""", "servizi-edilizia-su-fune.html")
+{cta(f"Ti serve un intervento di {s['title'].lower()}?")}""", "servizi-edilizia-su-fune.html")
 
-    rows = [("Costi", "Ridotti fino al 70%", "Elevati (ponteggi, gru, ecc.)"),
+    rows = [("Costi", "Ridotti: nessuna struttura da noleggiare", "Elevati (ponteggi, gru, ecc.)"),
             ("Tempi", "Rapidi (1-2 giorni per allestimento)", "Lunghi (settimane per montaggio)"),
             ("Impatto visivo", "Minimo", "Elevato"), ("Disturbo", "Minimo per inquilini e passanti", "Significativo"),
             ("Flessibilità", "Elevata (adattabile a ogni struttura)", "Limitata"),
             ("Sicurezza", "Elevata con personale certificato", "Variabile")]
     why = [("Zero ponteggi", "Interventi rapidi senza installare costosi e ingombranti ponteggi."),
-           ("Costi contenuti", "Risparmio fino al 70% rispetto alle tecniche tradizionali."),
+           ("Costi contenuti", "Senza ponteggio si risparmiano montaggio, noleggio e smontaggio."),
            ("Interventi rapidi", "Tempi ridotti grazie alla mobilità e flessibilità delle tecniche su fune."),
            ("Personale certificato", "Tecnici specializzati con certificazioni internazionali per lavori in quota."),
            ("Massima sicurezza", "Protocolli avanzati e attrezzature certificate per ogni intervento."),
            ("Approccio ecologico", "Materiali sostenibili e riduzione dell’impatto ambientale.")]
     page("vantaggi", "Vantaggi",
-         "Ecco perché l’edilizia su fune conviene: zero ponteggi, costi tagliati fino al 70%, tempi rapidi, meno permessi e impatto minimo, con personale certificato.",
+         "Ecco perché l’edilizia su fune conviene: zero ponteggi, costi ridotti, tempi rapidi, meno permessi e impatto minimo, con personale certificato.",
          "vantaggi-2-1.jpg",
          hero("Vantaggi", "L’edilizia su fune consente di effettuare interventi in quota senza ponteggi tradizionali. Ispirata alle tecniche di alpinismo, offre numerosi vantaggi rispetto ai metodi tradizionali.", "vantaggi-2-1.jpg", "Perché la fune") +
          crumbs((None, "Vantaggi")) +
          f"""<section class="section"><div class="wrap split">
 <div><h2>Efficienza economica</h2><p>Uno dei principali vantaggi dell’edilizia su fune è il risparmio economico: l’assenza di ponteggi e strutture di supporto riduce significativamente i costi dell’intervento.</p>
-<ul class="checks"><li><strong>Nessun costo per ponteggi</strong> Risparmio medio del 40%</li><li><strong>Tempi di intervento ridotti</strong> Meno giorni di lavoro, meno costi</li><li><strong>Nessun permesso speciale</strong> per l’occupazione del suolo pubblico</li><li><strong>Costi assicurativi ridotti</strong> per la minor durata dei lavori</li></ul></div>
+<ul class="checks"><li><strong>Nessun costo per ponteggi</strong> Si paga il lavoro, non la struttura</li><li><strong>Tempi di intervento ridotti</strong> Meno giorni di lavoro, meno costi</li><li><strong>Nessun permesso speciale</strong> per l’occupazione del suolo pubblico</li><li><strong>Costi assicurativi ridotti</strong> per la minor durata dei lavori</li></ul></div>
 <img src="assets/img/vantaggi-3.jpg" alt="" loading="lazy" width="1024" height="1024">
 </div></section>
 <section class="section alt"><div class="wrap"><h2>Perché sceglierci</h2>

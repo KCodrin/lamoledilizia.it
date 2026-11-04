@@ -10,5 +10,8 @@ Concreto, affidabile, tecnico ma comprensibile, vicino al cliente.
 | condomini, aziende e privati | promesse non verificabili |
 | edilizia su fune | prezzi |
 
+## Come è fatta una pagina servizio
+Il problema (come lo vede il cliente) → cosa ricevi → come interveniamo (3-4 passi). Niente gergo tecnico senza spiegazione, niente percentuali non confermate.
+
 ## Regole del cliente
 - (nessuna ancora)
