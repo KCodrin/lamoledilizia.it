@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-04 · Barra in alto a tutta larghezza
+**Cosa:** la barra blu in alto (telefono, email) ora va da bordo a bordo, senza angoli arrotondati e senza margini.
+**Perché:** richiesta del cliente.
+**Verifica:** solo CSS, pagine rigenerate.
+
 ## 2026-11-04 · README per GitHub
 **Cosa:** aggiunto `README.md` con descrizione del sito, struttura delle cartelle, come modificarlo e come viene pubblicato. Escluso dalla pubblicazione su Vercel.
 **Verifica:** solo documentazione.
