@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-04 · Pubblicato su GitHub
+**Cosa:** la cartella SITO NUOVO è diventata un repository git ed è stata caricata su GitHub (KCodrin/lamoledilizia.it, ramo main). Aggiunto `.gitignore`.
+**Verifica:** push riuscito.
+
 ## 2026-11-04 · Barra in alto e header a pillola su tutte le pagine
 **Cosa:** la barra blu in alto e l'header bianco a pillola, prima solo in home, ora sono su tutte le pagine. Tolto il vecchio header blu.
 **Perché / Dettagli:** richiesto dal cliente. Funzione `header()` in `src/build.py`.
