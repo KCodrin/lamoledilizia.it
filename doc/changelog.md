@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-04 · Angoli arrotondati uniformi
+**Cosa:** tutti i riquadri, le foto, le card, la barra in alto, la testata della home e i campi del modulo hanno ora lo stesso arrotondamento dell'header (20px). Le icone piccole dentro i riquadri usano 12px. Tutti i bottoni sono a pillola, come quello dell'header.
+**Perché:** richiesto dal cliente: gli arrotondamenti erano troppo diversi (6, 12, 14, 20, 28px).
+**Verifica:** controllo dei valori nel CSS: restano solo i due token, le pillole e i cerchi.
+
 ## 2026-11-04 · Testi più chiari: cosa facciamo e per chi
 **Cosa:** riscritta la home. Il titolo ora dice cosa facciamo ("Lavori su tetti e facciate senza ponteggi"). Aggiunte le sezioni "Che problema hai?" (8 problemi collegati al servizio giusto), "Come gli alpinisti, ma sul tuo palazzo" (cos'è l'edilizia su fune), "Per chi lavoriamo" (amministratori, aziende, privati), "Come lavoriamo" (4 passi) e "Domande frequenti" (6 domande). Riscritte le 12 pagine dei servizi con lo schema problema → cosa ricevi → come interveniamo, togliendo il gergo tecnico (grafene, robot, UV-C, nanotecnologie). La fascia finale di ogni servizio ora nomina quel servizio. Tolte le percentuali in contrasto tra loro (70% e 40% di risparmio).
 **Perché:** il sito descriveva l'azienda più che i problemi che risolve; testi poco credibili e numeri incoerenti.
