@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-04 · Header dentro la hero
+**Cosa:** l'header a pillola ora sta dentro la testata con foto (sopra l'immagine) invece che sopra di essa, su tutte le pagine; continua a restare fisso scorrendo.
+**Perché / Dettagli:** richiesto dal cliente. Solo CSS, in fondo a `assets/css/style.css`.
+**Verifica:** controllo a schermo desktop e mobile.
+
 ## 2026-11-04 · Configurazione Vercel
 **Cosa:** aggiunti `vercel.json` (sito statico: nessun framework, nessuna build, pagine servite dalla cartella principale) e `.vercelignore` (non pubblica `src/`, `doc/`, `CLAUDE.md`).
 **Perché:** su Vercel il sito dava errore 404, probabile rilevamento sbagliato del tipo di progetto o della cartella di uscita.

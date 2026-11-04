@@ -215,3 +215,10 @@ tbody td:nth-child(2) { font-weight: 600; }
   .hero-home .hero-actions p { text-align: center; }
   .hero-feats { flex-direction: column; align-items: flex-start; margin-top: 48px; }
 }
+
+/* Header a pillola dentro la hero: il margine negativo fa salire la hero sotto l'header (che resta sticky) */
+.site-header.pill { margin: 24px 28px -106px; }
+.hero-home { margin-top: 12px; }
+.hero-home-in { padding-top: 140px; }
+.hero { padding-top: calc(106px + clamp(48px, 8vw, 110px)); }
+@media (max-width: 600px) { .site-header.pill { margin-inline: 24px; } }
